@@ -62,3 +62,7 @@ class TodoDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ToDoSerializer
     queryset = Todo.objects.all()
     lookup_field = "pk" # default
+
+
+
+    
